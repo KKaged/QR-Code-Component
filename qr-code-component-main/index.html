@@ -67,10 +67,32 @@
       .attribution {
         font-size: 11px;
         text-align: center;
-        margin-top: 250px;
+        margin-top: 10rem;
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
+      }
+
+      @media (max-width: 375px) {
+        .container {
+          height: 420px;
+          width: 250px;
+          background-color: white;
+          border-radius: 20px;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          padding: 12px;
+          margin-top: 5em;
+        }
+        .attribution {
+          font-size: 11px;
+          text-align: center;
+          margin-top: 5rem;
+        }
+        .attribution a {
+          color: hsl(228, 45%, 44%);
+        }
       }
     </style>
   </head>
